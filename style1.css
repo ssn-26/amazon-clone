@@ -195,7 +195,15 @@ span{
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
+    transition: background-color 0.5s, border-radius 0.5s ;
 
+}
+
+.box:hover{
+    border: 2px solid orange;
+    background-color:rgb(255, 185, 56);
+    color:black;
+    border-radius: 5%;
 }
 
 .boximg{
